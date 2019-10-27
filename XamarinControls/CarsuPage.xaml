@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinControls.CarsuPage">
+    <CarouselPage.Children>
+        <ContentPage Title="Home" >
+            <Grid BackgroundColor="AliceBlue">
+                <Button VerticalOptions="Center" HorizontalOptions="Center"
+                        WidthRequest="200" HeightRequest="200"
+                        Text="Go Back" Clicked="Button_Clicked"/>
+            </Grid>
+
+        </ContentPage>
+        <ContentPage Title="Contact us">
+            <Grid BackgroundColor="Aqua">
+
+            </Grid>
+        </ContentPage>
+        <ContentPage Title="about us">
+            <Grid BackgroundColor="Beige">
+
+            </Grid>
+        </ContentPage>
+    </CarouselPage.Children>
+</CarouselPage>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinControls.ContorlsPage2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image x:Name="MyImg" VerticalOptions="Center" HorizontalOptions="Center"
+               WidthRequest="200" HeightRequest="200" Aspect="Fill"/>
+
+            <Button x:Name="send_btn" VerticalOptions="Center" HorizontalOptions="Center"
+                WidthRequest="200" HeightRequest="60" Text="Send the Data"/>
+
+            <Label x:Name="info_Label" VerticalOptions="Center" HorizontalOptions="Center"
+                WidthRequest="200" HeightRequest="60" Text="Welcome to Hello World !!" />
+
+            <Switch  VerticalOptions="Center" HorizontalOptions="Center"
+                WidthRequest="200" HeightRequest="60" Toggled="Switch_Toggled"/>
+
+            <Picker Title="Select of Country"  VerticalOptions="Center" 
+                HorizontalOptions="Center"  >
+                <Picker.Items>
+                    <x:String>Egypt</x:String>
+                    <x:String>KSA</x:String>
+                    <x:String>USA</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Entry x:Name="myTxt"  VerticalOptions="Center" HorizontalOptions="Center"
+                WidthRequest="200" HeightRequest="60" />
+            <Button x:Name="getTxt" Text="enter into picker control"  VerticalOptions="Center" HorizontalOptions="Center"
+                WidthRequest="200" HeightRequest="60" Clicked="getTxt_Clicked"/>
+            <Picker x:Name="mypicker" Title="list of names"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

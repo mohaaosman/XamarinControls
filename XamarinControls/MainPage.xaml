@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinControls"
+             x:Class="XamarinControls.MainPage">
+    <Grid>
+        <StackLayout Orientation="Vertical">
+            <Button x:Name="btn1" VerticalOptions="Center" HorizontalOptions="Center" 
+                    WidthRequest="150" HeightRequest="50"
+                    Text="push to tab page" Clicked="btn1_Clicked"/>
+
+            <Button x:Name="btn2" VerticalOptions="Center" HorizontalOptions="Center" 
+                    WidthRequest="250" HeightRequest="50"
+                    Text="pushModel to carsuoal page" Clicked="btn2_Clicked"/>
+
+
+            <Button x:Name="btn3" VerticalOptions="Center" HorizontalOptions="Center" 
+                    WidthRequest="250" HeightRequest="50"
+                    Text="Go to Grid page" Clicked="btn3_Clicked" />
+
+            <Button x:Name="btn4" VerticalOptions="Center" HorizontalOptions="Center" 
+                    WidthRequest="250" HeightRequest="50"
+                    Text="Go to Master page" Clicked="btn4_Clicked" />
+
+            <Button x:Name="btn5" VerticalOptions="Center" HorizontalOptions="Center" 
+                    WidthRequest="250" HeightRequest="50"
+                    Text="Go to Login page" Clicked="btn5_Clicked"  />
+
+            <Button x:Name="btn6" VerticalOptions="Center" HorizontalOptions="Center" 
+                    WidthRequest="250" HeightRequest="50"
+                    Text="Go to Controls part 1 page" Clicked="btn6_Clicked" />
+
+            <Button x:Name="btn7" VerticalOptions="Center" HorizontalOptions="Center" 
+                    WidthRequest="250" HeightRequest="50"
+                    Text="Go to webview page" Clicked="btn7_Clicked" />
+
+
+            <Button x:Name="btn8" VerticalOptions="Center" HorizontalOptions="Center" 
+                    WidthRequest="250" HeightRequest="50"
+                    Text="Go to Media Element page" Clicked="btn8_Clicked" />
+
+            <Button x:Name="btn9" VerticalOptions="Center" HorizontalOptions="Center" 
+                    WidthRequest="250" HeightRequest="50"
+                    Text="Go to controls page 2" Clicked="btn9_Clicked"  />
+
+            <Button x:Name="btn10" VerticalOptions="Center" HorizontalOptions="Center" 
+                    WidthRequest="250" HeightRequest="50"
+                    Text="Go to popup page" Clicked="btn10_Clicked"   />
+
+            <Button x:Name="btn11" VerticalOptions="Center" HorizontalOptions="Center" 
+                    WidthRequest="250" HeightRequest="50"
+                    Text="Go to Grid Style page"  Clicked="btn11_Clicked"  />
+
+        </StackLayout>
+    </Grid>
+
+</ContentPage>

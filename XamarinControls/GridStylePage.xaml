@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinControls.GridStylePage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="20*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <!--1st tile-->
+
+        <Grid x:Name="Tile1" Grid.Row="1" Grid.Column="1" VerticalOptions="Center"
+                  HorizontalOptions="Center" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80*"/>
+                <RowDefinition Height="20*"/>
+            </Grid.RowDefinitions>
+
+            <Image Source="Assets/pic.PNG" Aspect="Fill" Grid.Row="0" 
+                           Grid.RowSpan="2"/>
+            <Label Grid.Row="1" Text="hello World" FontSize="25"
+                           TextColor="Red" BackgroundColor="#99FFFFFF" VerticalTextAlignment="Center" 
+                           HorizontalTextAlignment="Center"/>
+
+        </Grid>
+
+
+        <!--2nd tile-->
+
+        <Frame CornerRadius="30" Padding="0" BorderColor="Red" Grid.Row="3" Grid.Column="1"
+                   VerticalOptions="Center"
+                  HorizontalOptions="Center">
+        <Grid x:Name="Tile2"  VerticalOptions="Center"
+                  HorizontalOptions="Center" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80*"/>
+                <RowDefinition Height="20*"/>
+            </Grid.RowDefinitions>
+
+            <Image Source="Assets/pic.PNG" Aspect="Fill" Grid.Row="0" 
+                           Grid.RowSpan="2"/>
+            <Label Grid.Row="1" Text="hello World" FontSize="25"
+                           TextColor="Red" BackgroundColor="#99FFFFFF" VerticalTextAlignment="Center" 
+                           HorizontalTextAlignment="Center"/>
+
+        </Grid>
+        </Frame>
+
+    </Grid>
+</ContentPage>

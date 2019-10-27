@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinControls.PopupPage">
+    <Grid x:Name="MainGrid">
+        <Grid x:Name="MainControls" BackgroundColor="BlueViolet">
+            <StackLayout>
+                <Button x:Name="popupBtn" Text="Open the Popup" VerticalOptions="Center"
+                        HorizontalOptions="Center" WidthRequest="200"
+                        HeightRequest="200" Clicked="popupBtn_Clicked"/>
+
+                <Image Source="Assets/pic.PNG" HorizontalOptions="Center"
+                       VerticalOptions="Center" WidthRequest="300"
+                       HeightRequest="300"/>
+
+            </StackLayout>
+          
+        </Grid>
+        <Grid x:Name="Popup" IsVisible="False" BackgroundColor="#992A201D">
+
+            <Grid VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="400"
+                  HeightRequest="400" BackgroundColor="White">
+
+                <Button x:Name="CloseBtn" Text="Close the popup"
+                        VerticalOptions="Center" HorizontalOptions="Center"
+                        WidthRequest="100" HeightRequest="100" Clicked="CloseBtn_Clicked"/>
+
+
+            </Grid>
+            
+        </Grid>
+    </Grid>
+</ContentPage>

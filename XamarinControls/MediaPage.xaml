@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:forms="clr-namespace:InTheHand.Forms;assembly=InTheHand.Forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinControls.MediaPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+        </Grid.RowDefinitions>
+        <forms:MediaElement Grid.Row="0"  HorizontalOptions="Fill" VerticalOptions="Center" 
+                                HeightRequest="240" x:Name="Media" AreTransportControlsEnabled="true"
+                                Source="https://sec.ch9.ms/ch9/b4ca/4e3d3cb1-4345-467b-9dc7-9fdcc9f6b4ca/VS2017_high.mp4"/>
+
+        <forms:MediaElement Grid.Row="1" HorizontalOptions="Fill" VerticalOptions="Center" 
+                                HeightRequest="240" x:Name="Media1" AreTransportControlsEnabled="true"
+                                Source="Assets/test.mp4"/>
+
+
+    </Grid>
+</ContentPage>

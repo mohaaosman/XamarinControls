@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinControls.ControlsPage1" >
+    <Grid x:Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="30*"/>
+        </Grid.RowDefinitions>
+
+        <StackLayout>
+            <DatePicker />
+            <TimePicker/>
+            <Stepper/>
+            <Switch/>
+            <SearchBar/>
+        </StackLayout>
+
+
+        <ScrollView Grid.Row="1" VerticalScrollBarVisibility="Always" VerticalOptions="Start"
+                   HorizontalOptions="Start" WidthRequest="400" HeightRequest="500" >
+            <StackLayout Orientation="Vertical">
+                <Frame BorderColor="Red"  CornerRadius="20" VerticalOptions="Start"
+                       HorizontalOptions="Start" WidthRequest="380" HeightRequest="100"
+                       Padding="0" >
+                    <StackLayout Orientation="Horizontal"  BackgroundColor="AliceBlue">
+                        <Image Source="Assets/pic.Png" VerticalOptions="Center" 
+                               HorizontalOptions="Center" HeightRequest="100" WidthRequest="100"
+                               Aspect="Fill"/>
+                        <Label VerticalOptions="Start" HorizontalOptions="Start"
+                               Text="ahlkahdlkahdshalhdslahlksdhoaiydiheonc iuueicvaiubciuav"
+                               FontSize="25"/>
+                    </StackLayout>
+                </Frame>
+                <Frame BorderColor="Red"  CornerRadius="20" VerticalOptions="Start"
+                       HorizontalOptions="Start" WidthRequest="380" HeightRequest="100"
+                       Padding="0" >
+                    <StackLayout Orientation="Horizontal"  BackgroundColor="AliceBlue">
+                        <Image Source="Assets/pic.Png" VerticalOptions="Center" 
+                               HorizontalOptions="Center" HeightRequest="100" WidthRequest="100"
+                               Aspect="Fill"/>
+                        <Label VerticalOptions="Start" HorizontalOptions="Start"
+                               Text="ahlkahdlkahdshalhdslahlksdhoaiydiheonc iuueicvaiubciuav"
+                               FontSize="25"/>
+                    </StackLayout>
+                </Frame>
+
+
+
+                <Frame BorderColor="Red"  CornerRadius="20" VerticalOptions="Start"
+                       HorizontalOptions="Start" WidthRequest="380" HeightRequest="100"
+                       Padding="0" >
+                    <StackLayout Orientation="Horizontal"  BackgroundColor="AliceBlue">
+                        <Image Source="Assets/pic.Png" VerticalOptions="Center" 
+                               HorizontalOptions="Center" HeightRequest="100" WidthRequest="100"
+                               Aspect="Fill"/>
+                        <Label VerticalOptions="Start" HorizontalOptions="Start"
+                               Text="ahlkahdlkahdshalhdslahlksdhoaiydiheonc iuueicvaiubciuav"
+                               FontSize="25"/>
+                    </StackLayout>
+                </Frame>
+                <Frame BorderColor="Red"  CornerRadius="20" VerticalOptions="Start"
+                       HorizontalOptions="Start" WidthRequest="380" HeightRequest="100"
+                       Padding="0" >
+                    <StackLayout Orientation="Horizontal"  BackgroundColor="AliceBlue">
+                        <Image Source="Assets/pic.Png" VerticalOptions="Center" 
+                               HorizontalOptions="Center" HeightRequest="100" WidthRequest="100"
+                               Aspect="Fill"/>
+                        <Label VerticalOptions="Start" HorizontalOptions="Start"
+                               Text="ahlkahdlkahdshalhdslahlksdhoaiydiheonc iuueicvaiubciuav"
+                               FontSize="25"/>
+                    </StackLayout>
+                </Frame>
+                <Frame BorderColor="Red"  CornerRadius="20" VerticalOptions="Start"
+                       HorizontalOptions="Start" WidthRequest="380" HeightRequest="100"
+                       Padding="0" >
+                    <StackLayout Orientation="Horizontal"  BackgroundColor="AliceBlue">
+                        <Image Source="Assets/pic.Png" VerticalOptions="Center" 
+                               HorizontalOptions="Center" HeightRequest="100" WidthRequest="100"
+                               Aspect="Fill"/>
+                        <Label VerticalOptions="Start" HorizontalOptions="Start"
+                               Text="ahlkahdlkahdshalhdslahlksdhoaiydiheonc iuueicvaiubciuav"
+                               FontSize="25"/>
+                    </StackLayout>
+                </Frame>
+                <Frame BorderColor="Red"  CornerRadius="20" VerticalOptions="Start"
+                       HorizontalOptions="Start" WidthRequest="380" HeightRequest="100"
+                       Padding="0" >
+                    <StackLayout Orientation="Horizontal"  BackgroundColor="AliceBlue">
+                        <Image Source="Assets/pic.Png" VerticalOptions="Center" 
+                               HorizontalOptions="Center" HeightRequest="100" WidthRequest="100"
+                               Aspect="Fill"/>
+                        <Label VerticalOptions="Start" HorizontalOptions="Start"
+                               Text="ahlkahdlkahdshalhdslahlksdhoaiydiheonc iuueicvaiubciuav"
+                               FontSize="25"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+
+
+        <ListView x:Name="listItems" Grid.Row="2" ItemSelected="listItems_ItemSelected"/>
+
+    </Grid>
+</ContentPage>

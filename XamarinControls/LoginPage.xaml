@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinControls.LoginPage">
+    <Grid x:Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="12.5*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="12.5*"/>
+        </Grid.RowDefinitions>
+
+
+        <Image HorizontalOptions="Center" VerticalOptions="Center"
+               WidthRequest="300" HeightRequest="300" Source="Assets/pic.PNG"/>
+
+        <Label Text="App Name" FontSize="40" TextColor="Red" BackgroundColor="AntiqueWhite"
+               VerticalOptions="Center" HorizontalOptions="Center" VerticalTextAlignment="Center"
+               HorizontalTextAlignment="Center" Grid.Row="1"/>
+
+        <Entry Grid.Row="2" HorizontalOptions="Center" VerticalOptions="Center"
+               WidthRequest="400" HeightRequest="60" Placeholder="User Name" PlaceholderColor="Red"/>
+
+
+        <Entry IsPassword="True" Grid.Row="3" HorizontalOptions="Center" VerticalOptions="Center"
+               WidthRequest="400" HeightRequest="60" Placeholder="Password"/>
+
+        <Button Grid.Row="4" HorizontalOptions="Center" VerticalOptions="Center"
+                WidthRequest="300" HeightRequest="50" Text="Login" TextColor="Gray" BackgroundColor="AntiqueWhite"
+                BorderColor="Red"/>
+
+        <Label Grid.Row="5" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+               Text="OR" FontSize="40" FontAttributes="Italic" VerticalTextAlignment="Center"
+               HorizontalTextAlignment="Center"/>
+
+        <Button CornerRadius="10" Grid.Row="6" HorizontalOptions="Center" VerticalOptions="Center"
+                WidthRequest="300" HeightRequest="50" Text="Signup" TextColor="Gray" BackgroundColor="AntiqueWhite"
+                BorderColor="Red"/>
+
+    </Grid>
+</ContentPage>
